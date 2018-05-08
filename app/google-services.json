@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "618232563206",
+    "firebase_url": "https://materialpersonasmovil2018.firebaseio.com",
+    "project_id": "materialpersonasmovil2018",
+    "storage_bucket": "materialpersonasmovil2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618232563206:android:2306b3c2938a53de",
+        "android_client_info": {
+          "package_name": "bara.materialpersonas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618232563206-n891urdvfu2uu53hjpa5802nu3u58jb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bara.materialpersonas",
+            "certificate_hash": "c5f78e211030c34192e6b1a60cf339a927bf84ac"
+          }
+        },
+        {
+          "client_id": "618232563206-ijuvls6beptovfboe49f7bmudibua6sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk2t9eQvm3BNNTMdIPMrfG-ey_9TZkNU8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618232563206-ijuvls6beptovfboe49f7bmudibua6sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
