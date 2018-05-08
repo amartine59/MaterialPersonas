@@ -30,10 +30,8 @@ public class Principal extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         lstOpciones = findViewById(R.id.lstOpciones);
-        personas = new ArrayList();
-        personas.add(new Persona(R.drawable.images,"1143147291","Jannette","Castro",1));
-        personas.add(new Persona(R.drawable.images2,"1143147285","Manuel","Perez",1));
-        personas.add(new Persona(R.drawable.images3,"1143147262","Sergio","Ramos",1));
+        personas = Datos.obtener();
+
 
         llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
@@ -44,8 +42,11 @@ public class Principal extends AppCompatActivity {
     }
 
     public void crearPersonas(View v){
-        Snackbar.make(v, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
+      i = new Intent(Principal.this,CrearPersonas.class);
+      startActivity(i);
+        //  Snackbar.make(v, "Replace with your own action", Snackbar.LENGTH_LONG)
+        //        .setAction("Action", null).show();
+
     }
 
     @Override
