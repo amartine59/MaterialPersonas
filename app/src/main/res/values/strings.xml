@@ -10,6 +10,8 @@
     <string name="masculino">Masculino</string>
     <string name="femenino">Femenino</string>
     <string name="mensaje_guardado_exitoso">Persona guardada Exitosamente!</string>
+    <string name="informacion">Informacion</string>
+    <string name="sexo">Sexo</string>
     <string-array name="sexo">
         <item>@string/masculino</item>
         <item>@string/femenino</item>

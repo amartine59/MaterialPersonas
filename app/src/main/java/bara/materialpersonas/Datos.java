@@ -18,7 +18,7 @@ public class Datos {
 
     public static void guardar(Persona p){
         databaseReference.child(db).child(p.getId()).setValue(p);
-        
+
     }
 
     public static ArrayList<Persona>obtener(){
@@ -34,5 +34,10 @@ public class Datos {
 
     public static String getId(){
         return databaseReference.push().getKey();
+    }
+
+    public static void setPersonas(ArrayList<Persona> personas){
+        Datos.personas= personas;
+
     }
 }
